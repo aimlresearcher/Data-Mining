@@ -82,7 +82,7 @@ Data mining focuses on **discovering hidden, valuable insights** in large datase
 
 # 🔍 03-Data Mining: A KDD Process
 
-![KDD Process Diagram](assets/images/kdd-process.png)
+![KDD Process Diagram](https://github.com/aimlresearcher/Data-Mining/blob/main/images/01.png?raw=true)
 
 > **Data mining** is the **core** of the **Knowledge Discovery in Databases (KDD)** process.
 
@@ -119,3 +119,4 @@ Data mining focuses on **discovering hidden, valuable insights** in large datase
 ### 🧠 Key Insight:
 
 > While **data mining** is at the heart of KDD, its effectiveness depends on **the entire pipeline**—from data preparation to evaluation.
+
