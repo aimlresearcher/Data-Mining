@@ -120,3 +120,35 @@ Data mining focuses on **discovering hidden, valuable insights** in large datase
 
 > While **data mining** is at the heart of KDD, its effectiveness depends on **the entire pipeline**—from data preparation to evaluation.
 
+# 🔄 04-Data Mining: Confluence of Multiple Disciplines
+
+![Confluence of Disciplines in Data Mining](assets/images/data-mining-disciplines.png)
+
+> **Data mining** is an interdisciplinary field that combines concepts and techniques from various domains to discover knowledge from large datasets.
+
+---
+
+### 🧠 Key Insight
+
+Data mining lies at the **center** of several foundational areas, each contributing unique tools and perspectives.
+
+---
+
+### 🔹 Disciplines Involved:
+
+1. **📦 Database Technology**  
+   - Efficient storage, retrieval, and management of structured and unstructured data.
+
+2. **📊 Statistics**  
+   - Mathematical tools for analyzing distributions, relationships, and validating mined patterns.
+
+3. **📈 Visualization**  
+   - Conveys results and patterns in an interpretable format (charts, graphs, plots).
+
+4. **🧬 Other Disciplines**  
+   - Incorporates domain-specific knowledge from areas like healthcare, finance, marketing, etc.
+
+5. **⚙️ Algorithm**  
+   - Core of data mining — enables processing, analysis, and optimization tasks.
+
+6
