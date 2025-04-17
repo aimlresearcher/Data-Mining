@@ -201,9 +201,7 @@ $P(\text{Positive} \mid X) > P(\text{Negative} \mid X)$
 🔍 **The test sentence is classified as: `Positive`**
 
 # Example 01
-## 🧩 1. Dataset (Overlapping Words for Challenge)
-
-
+## 🧩 1. Dataset 
 
 | 🆔 | ✏️ Sentence                                      | 😊 Sentiment |
 |----|--------------------------------------------------|--------------|
@@ -220,9 +218,7 @@ $P(\text{Positive} \mid X) > P(\text{Negative} \mid X)$
 ---
 
 # Example 02
-## 🧾 1. Dataset (Balanced & Challenging)
-
-
+## 🧾 1. Dataset 
 
 | 🆔 | ✏️ Sentence                                                   | 😊 Sentiment |
 |----|---------------------------------------------------------------|--------------|
