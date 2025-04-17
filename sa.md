@@ -241,3 +241,32 @@ $P(\text{Positive} \mid X) > P(\text{Negative} \mid X)$
 > "The film had a great plot but weak acting"
 
 
+# Example 03
+## 🌤️ "Commute Decision"
+
+
+| 📅 Day | 🌦️ Weather   | 🚗 Traffic | ⏱️ Time   | 🔥 Urgency | 🚶 Commute |
+|--------|--------------|------------|-----------|-------------|-------------|
+| 1      | Sunny        | Low        | Short     | Low         | Yes         |
+| 2      | Rainy        | High       | Long      | High        | No          |
+| 3      | Sunny        | Medium     | Medium    | Low         | Yes         |
+| 4      | Overcast     | Low        | Short     | Medium      | Yes         |
+| 5      | Rainy        | High       | Long      | Medium      | No          |
+| 6      | Sunny        | Medium     | Medium    | High        | No          |
+| 7      | Overcast     | Low        | Short     | Low         | Yes         |
+| 8      | Rainy        | Medium     | Medium    | High        | No          |
+| 9      | Overcast     | High       | Long      | Low         | Yes         |
+| 10     | Sunny        | Low        | Medium    | Medium      | Yes         |
+
+## 🔍 Classify New Instance
+
+Classify the following **new instance** using the dataset:
+
+### 🆕 New Instance:
+
+| 🌦️ Weather | 🚗 Traffic | ⏱️ Time | 🔥 Urgency |
+|------------|------------|--------|------------|
+| Sunny      | Medium     | Medium | High       |
+
+---
+
