@@ -1,4 +1,4 @@
-# 🧠 Naive Bayes Sentiment Analysis - Step-by-Step Guide
+# 🧠 Naive Bayes Sentiment Analysis 
 
 ## 📝 Outline of Steps
 
