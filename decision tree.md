@@ -51,9 +51,7 @@ Where:
 
 #### 🔢 Formula:
 
-$
-Gain(S, A) = Entropy(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} \cdot Entropy(S_v)
-$
+$Gain(S, A) = Entropy(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} \cdot Entropy(S_v)$
 
 Where:
 - \( Values(A) \) are the possible values of attribute \( A \).
@@ -117,23 +115,17 @@ We have:
 - ❌ "No" = 5  
 
 ### 🧮 Entropy Formula:
-$
-Entropy(S) = -p_+ \log_2(p_+) - p_- \log_2(p_-)
-$
+$Entropy(S) = -p_+ \log_2(p_+) - p_- \log_2(p_-)$
 
 Where:
 - $( p_+ = \frac{9}{14} \approx 0.643 )$
 - $( p_- = \frac{5}{14} \approx 0.357 )$
 
 ### 🔢 Substituting Values:
-$
-Entropy(S) = -0.643 \cdot \log_2(0.643) - 0.357 \cdot \log_2(0.357)
-$
+$Entropy(S) = -0.643 \cdot \log_2(0.643) - 0.357 \cdot \log_2(0.357)$
 
 ### 🧠 Final Answer:
-$
-Entropy(S) \approx 0.940
-$
+$Entropy(S) \approx 0.940$
 
 ## 🔶 **Step 2: Calculate Information Gain for Each Attribute**
 
@@ -177,91 +169,61 @@ $
 
 - **Mild** → [D4, D8, D10, D11, D12, D14] → 6 samples → ✅ 4 Yes, ❌ 2 No  
   ➤ Entropy =  
-  $
-  -\frac{4}{6} \log_2\left(\frac{4}{6}\right) - \frac{2}{6} \log_2\left(\frac{2}{6}\right) ≈ 0.918
-  $
+  $-\frac{4}{6} \log_2\left(\frac{4}{6}\right) - \frac{2}{6} \log_2\left(\frac{2}{6}\right) ≈ 0.918$
 
 - **Cool** → [D5, D6, D7, D9] → 4 samples → ✅ 3 Yes, ❌ 1 No  
   ➤ Entropy =  
-  $
-  -\frac{3}{4} \log_2\left(\frac{3}{4}\right) - \frac{1}{4} \log_2\left(\frac{1}{4}\right) ≈ 0.811
-  $
+  $-\frac{3}{4} \log_2\left(\frac{3}{4}\right) - \frac{1}{4} \log_2\left(\frac{1}{4}\right) ≈ 0.811$
 
 ---
 
 🔸 **Information Gain (Temperature):** 
 
-$
-\text{Gain(Temperature)} = 0.940 - \left( \frac{4}{14} \cdot 1.0 + \frac{6}{14} \cdot 0.918 + \frac{4}{14} \cdot 0.811 \right)
-$
+$\text{Gain(Temperature)} = 0.940 - \left( \frac{4}{14} \cdot 1.0 + \frac{6}{14} \cdot 0.918 + \frac{4}{14} \cdot 0.811 \right)$
 
-$
-= 0.940 - (0.286 + 0.393 + 0.232)
-$
+$= 0.940 - (0.286 + 0.393 + 0.232)$
 
-$
-= 0.940 - 0.911 = \boxed{0.029}
-$
+$= 0.940 - 0.911 = \boxed{0.029}$
 
 ### 🌫️ C. Humidity
 
 - **High** → [D1, D2, D3, D4, D8, D12, D14] → 7 samples → ✅ 3 Yes, ❌ 4 No  
   ➤ Entropy =  
-  $
-  -\frac{3}{7} \log_2\left(\frac{3}{7}\right) - \frac{4}{7} \log_2\left(\frac{4}{7}\right) ≈ 0.985
-  $
+  $-\frac{3}{7} \log_2\left(\frac{3}{7}\right) - \frac{4}{7} \log_2\left(\frac{4}{7}\right) ≈ 0.985$
 
 - **Normal** → [D5, D6, D7, D9, D10, D11, D13] → 7 samples → ✅ 6 Yes, ❌ 1 No  
   ➤ Entropy =  
-  $
-  -\frac{6}{7} \log_2\left(\frac{6}{7}\right) - \frac{1}{7} \log_2\left(\frac{1}{7}\right) ≈ 0.591
-  $
+  $-\frac{6}{7} \log_2\left(\frac{6}{7}\right) - \frac{1}{7} \log_2\left(\frac{1}{7}\right) ≈ 0.591$
 
 ---
 
 🔸 **Information Gain (Humidity):** 
 
-$
-\text{Gain(Humidity)} = 0.940 - \left( \frac{7}{14} \cdot 0.985 + \frac{7}{14} \cdot 0.591 \right)
-$
+$\text{Gain(Humidity)} = 0.940 - \left( \frac{7}{14} \cdot 0.985 + \frac{7}{14} \cdot 0.591 \right)$
 
-$
-= 0.940 - (0.492 + 0.296)
-$
+$= 0.940 - (0.492 + 0.296)$
 
-$
-= 0.940 - 0.788 = \boxed{0.152}
-$
+$= 0.940 - 0.788 = \boxed{0.152}$
 
 ### 🌬️ D. Wind
 
 - **Weak** → [D1, D3, D4, D5, D8, D9, D10] → 7 samples → ✅ 6 Yes, ❌ 1 No  
   ➤ Entropy =  
-  $
-  -\frac{6}{7} \log_2\left(\frac{6}{7}\right) - \frac{1}{7} \log_2\left(\frac{1}{7}\right) ≈ 0.591
-  $
+  $-\frac{6}{7} \log_2\left(\frac{6}{7}\right) - \frac{1}{7} \log_2\left(\frac{1}{7}\right) ≈ 0.591$
 
 - **Strong** → [D2, D6, D7, D11, D12, D13, D14] → 7 samples → ✅ 3 Yes, ❌ 4 No  
   ➤ Entropy =  
-  $
-  -\frac{3}{7} \log_2\left(\frac{3}{7}\right) - \frac{4}{7} \log_2\left(\frac{4}{7}\right) ≈ 0.985
-  $
+  $-\frac{3}{7} \log_2\left(\frac{3}{7}\right) - \frac{4}{7} \log_2\left(\frac{4}{7}\right) ≈ 0.985$
 
 ---
 
 🔸 **Information Gain (Wind):** 
 
-$
-\text{Gain(Wind)} = 0.940 - \left( \frac{7}{14} \cdot 0.591 + \frac{7}{14} \cdot 0.985 \right)
-$
+$\text{Gain(Wind)} = 0.940 - \left( \frac{7}{14} \cdot 0.591 + \frac{7}{14} \cdot 0.985 \right)$
 
-$
-= 0.940 - (0.296 + 0.492)
-$
+$= 0.940 - (0.296 + 0.492)$
 
-$
-= 0.940 - 0.788 = \boxed{0.152}
-$
+$= 0.940 - 0.788 = \boxed{0.152}$
 
 ### 🔶 **Best Attribute to Split On:**
 
