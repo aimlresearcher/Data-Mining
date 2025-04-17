@@ -38,9 +38,7 @@ To split the dataset effectively, we use statistical measures such as:
 
 #### 🔢 Formula:
 
-$
-Entropy(S) = - \sum_{i=1}^{c} p_i \log_2(p_i)
-$
+$Entropy(S) = - \sum_{i=1}^{c} p_i \log_2(p_i)$
 
 Where:
 - $( p_i )$ is the **proportion** of class ( i ) in set ( S ).
